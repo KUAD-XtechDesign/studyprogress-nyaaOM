@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+#home
+header{
+   background-color: rgb(0,170,140)
+}
+　main{
+     background-color:rgb(0,170,140);
+　　　　}
+ h1{
+   background-color:rgb(0,56,142);
+    color:white
+}
+
+h2{
+   color:rgb(0,56,142)
+}
+h3{
+   color:white
+}
+
+footer{
+     background-color:rgb(0,170,140);
+　　　　}
+
+#cv
+header{
+   background-color: rgb(0,170,140)
+}
+main{
+    background-color:rgb(0,170,140);
+  }
+
+#sub
+ header{
+    background-color: rgb(0,170,140)
+}
+ main{
+     background-color:rgb(0,170,140);
+     background-size: contain;
+}
+h2{clear: both;
+}
+figure.gazou{
+  float: left;
+  padding-right: 20px
+}
+figure.gazou2{
+  float:  left;
+  padding-right: 20px;
+}
+
+.cp_menu {
+	max-width: 360px;
+	margin: 0 auto;
+	padding: 0;
+}
+.cp_menu a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #000000;
+	line-height: 1;
+}
+.cp_menu label {
+	display: block;
+	position: relative;
+	margin: 0 0 2px 0;
+	padding: 12px;
+	line-height: 1;
+	color: #ffffff;
+	background: #1b2538;
+	cursor: pointer;
+}
+.cp_menu label::before {
+	position: absolute;
+	content: '▼';
+	color: #ffffff;
+	right: 0.5em;
+	top: 25%;
+}
+.cp_menu input {
+	display: none;
+}
+.cp_menu ul {
+	margin: 0;
+	padding: 0;
+	background: #f4f4f4;
+	list-style: none;
+}
+.cp_menu li {
+	overflow-y: hidden;
+	max-height: 0;
+	transition: all 0.5s;
+}
+/*リストが増えたらULごとに追加してください*/
+#cp_menu_bar1:checked ~ #link1 li,
+#cp_menu_bar2:checked ~ #link2 li {
+	max-height: 46px;
+	opacity: 1;
+}
+
+
+
+.btn-circle-border-double {
+  display: inline-block;
+  text-decoration: none;
+  color:rgb(0,56,142);
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: double 4px rgb(0,56,142);
+  text-align: center;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.btn-circle-border-double:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
