@@ -51,7 +51,7 @@ footer{
 }
 
 
-#home img{
+img{
   max-width: 100%;
   height: auto;
 }
@@ -137,4 +137,10 @@ figure.gazou2{
 .btn-circle-border-double:hover {
   -webkit-transform: rotateY(360deg);
   transform: rotateY(360deg);
+}
+
+
+.ringo{
+  max-width: 100%;
+  height: auto;
 }
