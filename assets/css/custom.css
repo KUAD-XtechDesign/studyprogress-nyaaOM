@@ -1,6 +1,6 @@
 h1{
   font-size:18px;
-  border-left: #e2970c solid 5px;
+  border-left: #1b2538 solid 5px;
   padding-left: 5px;
   margin-bottom: 20px;
 }　　　　　　　　　　　　　　　　　　　　　　
@@ -25,7 +25,7 @@ ul, ol{
 
 #main_nav{
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 #main_nav li{
@@ -36,14 +36,14 @@ ul, ol{
 #main_nav li span{
   font-size:20px;
   text-decoration: none;
-  margin: 0 20px;
-  padding-bottom: 5px;
+  margin: 0 50px;
+  padding-bottom: 20px;
   font-weight: bold;
 }
 
 #main_nav li a:hover,
 #main_nav li span{
-  color:#e2970c;
+  color:#87ceeb;
 }
 
 #main_nav li span{
@@ -63,6 +63,8 @@ ul, ol{
     }
 }
 
+#main_nav a:link { color: #1b2538; }
+#main_nav a:visited { color: #1b2538; }
 
 /*======================================================
 main
