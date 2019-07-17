@@ -26,7 +26,7 @@ h2{
    color:#1b2538
 }
 h3{
-   color:white
+   color:#1b2538
 }
 footer{
      background-color: #1b2538
@@ -264,7 +264,7 @@ figure.gazou2{
 }
 body {
     animation: fadeIn 10s ease 5s 4 normal;
-    -webkit-animation: fadeIn 5s ease 0s 1 normal;
+    -webkit-animation: fadeIn 6s ease 0s 1 normal;
 }
 
 @keyframes fadeIn {
