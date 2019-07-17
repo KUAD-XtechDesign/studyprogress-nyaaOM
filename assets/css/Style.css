@@ -10,9 +10,6 @@ header{
 #home a:link { color: #1b2538; }
 #home a:visited { color: #1b2538; }
 
-.ringo {
-  background: url("./assets/images/isikiri-1.jpg")center center / cover no-repeat fixed;;
-
 }
 body{
   background-color: #f5f5f5
@@ -264,7 +261,7 @@ figure.gazou2{
 }
 body {
     animation: fadeIn 10s ease 5s 4 normal;
-    -webkit-animation: fadeIn 6s ease 0s 1 normal;
+    -webkit-animation: fadeIn 3s ease 0s 1 normal;
 }
 
 @keyframes fadeIn {
@@ -275,4 +272,22 @@ body {
 @-webkit-keyframes fadeIn {
     0% {opacity: 0}
     100% {opacity: 1}
+}
+
+.ringo {
+    display:  block;                /* ブロック要素にする */
+    margin: 0 auto;                 /* 要素中央揃え */
+    position:  relative;            /* 位置指定 */
+    animation: anime1 2s ease;      /* アニメーション指定 */
+}
+
+@keyframes anime1 {
+    0% {
+        opacity:  0;                /* 透明度指定 */
+        top: 50px;                  /* 位置指定 */
+    }
+    100% {
+        opacity:  1;                /* 透明度指定 */
+        top: 0;                     /* 位置指定 */
+    }
 }
