@@ -30,7 +30,7 @@ ul, ol{
 
 #main_nav li{
   display: inline-block;
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 #main_nav li a,
@@ -137,30 +137,4 @@ body.index_page h1{
     border: none;
     text-align: center;
     font-size: 26px;
-}
-
-/*======================================================
-footer
-======================================================*/
-footer{
-    background-color: #555;
-    color:#fff;
-    font-size: 80%;
-    padding:10px;
-    min-height:80px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-
-@media screen and (min-width:481px) {
-    footer{
-        position: fixed;
-        bottom:0;
-        width:100%;
-    }
 }
