@@ -30,6 +30,7 @@ ul, ol{
 
 #main_nav li{
   display: inline-block;
+  background-color: white;
 }
 
 #main_nav li a,
@@ -47,7 +48,7 @@ ul, ol{
 }
 
 #main_nav li span{
-  border-bottom: 3px solid #e2970c;
+  border-bottom: 5px solid </div>;
 }
 
 @media screen and (max-width:480px) {

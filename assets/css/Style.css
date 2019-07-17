@@ -10,6 +10,10 @@ header{
 #home a:link { color: #1b2538; }
 #home a:visited { color: #1b2538; }
 
+.ringo {
+  background: url("./assets/images/isikiri-1.jpg")center center / cover no-repeat fixed;;
+
+}
 h1{
   background-color: #1b2538;
   color:white
@@ -24,8 +28,6 @@ h3{
 footer{
      background-color: #1b2538
 　　　　}
-
-
 img{
   max-width: 100%;
   height: auto;
@@ -37,7 +39,7 @@ h2{
 }
 figure.gazou{
   float: left;
-  padding-right: 20px
+  padding-right: 100px;
 }
 figure.gazou2{
   float:  left;
@@ -124,11 +126,6 @@ figure.gazou2{
 }
 #maru a:visited{
   color:white
-}
-
-.ringo{
-  max-width: 100%;
-  height: auto;
 }
 
 #home{
@@ -260,3 +257,19 @@ figure.gazou2{
     }
 #sub_top a:link { color: #1b2538; }
 #sub_top a:visited { color: #1b2538; }
+
+}
+body {
+    animation: fadeIn 10s ease 5s 4 normal;
+    -webkit-animation: fadeIn 5s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
