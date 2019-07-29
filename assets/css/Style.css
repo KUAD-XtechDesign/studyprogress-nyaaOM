@@ -5,20 +5,47 @@ header{
    background-color: white
 }
 　main{
-     background-color: white
+     background-color: black;
 　　　　}
 #home a:link { color: #1b2538; }
 #home a:visited { color: #1b2538; }
-
+#home li+li{border-left: 2px solid #1b2538;
+           }
+.sample03 {
+          color:#1b2538;
+          font-family: 'Courier';
 }
+
+.sample03{position: relative;
+  display: inline-block;
+  margin: 47px 0;
+  text-shadow: 0 0 2px white;
+}
+.sample03:before{content: "";
+  position: absolute;
+  background:#87cefa;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+.active {font-family: 'Courier';
+}
+.active2{font-family: 'Hiragino Maru Gothic ProN';}
 body{
-  background-color: #f5f5f5
+  background-color: white;
 }
-h1{
-  background-color: #1b2538;
+h1{background-color: #1b2538;
   color:white
+
 }
 
+.ringo{ border-radius: 5px;
+}
 h2{
    color:#1b2538
 }
@@ -37,6 +64,7 @@ img{
 h2{
   clear: both;
 }
+
 figure.gazou{
   float: left;
   padding-right: 100px;
@@ -55,7 +83,7 @@ figure.gazou2{
 	display: block;
 	padding: 10px;
 	text-decoration: none;
-	color: #000000;
+	color: #1b2538;
 	line-height: 1;
 }
 .cp_menu label {
@@ -67,6 +95,9 @@ figure.gazou2{
 	color: #ffffff;
 	background: #1b2538;
 	cursor: pointer;
+}
+.cp_menu label:hover{
+  background-color: #4682b4
 }
 .cp_menu label::before {
 	position: absolute;
@@ -81,7 +112,7 @@ figure.gazou2{
 .cp_menu ul {
 	margin: 0;
 	padding: 0;
-	background: #f4f4f4;
+	background: white;
 	list-style: none;
 }
 .cp_menu li {
@@ -92,7 +123,8 @@ figure.gazou2{
 
 .cp_menu li a:hover,
 .cp_menu li span{
-  background-color:#c0c0c0;
+  color:#87ceeb;
+  background-color: 
 }
 /*リストが増えたらULごとに追加してください*/
 #cp_menu_bar1:checked ~ #link1 li,
@@ -135,7 +167,7 @@ figure.gazou2{
 
 #home li{
   display: inline-block;
-  background-color: #f5f5f5;
+  background-color: white;
 }
 
 #home li a,
