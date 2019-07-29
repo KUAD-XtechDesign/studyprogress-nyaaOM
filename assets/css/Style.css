@@ -1,12 +1,8 @@
 @charset "utf-8";
 
-#home
-header{
+#home header{
    background-color: white
 }
-　main{
-     background-color: black;
-　　　　}
 #home a:link { color: #1b2538; }
 #home a:visited { color: #1b2538; }
 #home li+li{border-left: 2px solid #1b2538;
@@ -36,18 +32,81 @@ header{
 .active {font-family: 'Courier';
 }
 .active2{font-family: 'Hiragino Maru Gothic ProN';}
+.gazou{font-family: 'Hiragino Maru Gothic ProN';}
+#sub h2{font-family: 'Courier';}
+#ziko h1{font-family: 'Hiragino Maru Gothic ProN';}
+#ziko h2{font-family: 'Hiragino Maru Gothic ProN';}
+#ziko p{font-family: 'Hiragino Maru Gothic ProN';}
+#sub h1{font-family: 'Hiragino Maru Gothic ProN';
+position: relative;
+ line-height: 1.4;
+ padding:0.25em 1em;
+ display: inline-block;
+ top:0;
+}
+
+h1:before, h1:after {
+ position: absolute;
+ top: 0;
+ content:'';
+ width: 10px;
+ height: 100%;
+ display: inline-block;
+}
+h1:before {
+ border-left: solid 5px #1b2538;
+ border-top: solid 1px #1b2538;
+ border-bottom: solid 1px #1b2538;
+ left: 0;
+}
+h1:after {
+ content: '';
+ border-top: solid 1px #1b2538;
+ border-right: solid 5px #1b2538;
+ border-bottom: solid 1px #1b2538;
+ right: 0;
+}
+#ziko h1{font-family: 'Hiragino Maru Gothic ProN';
+position: relative;
+ line-height: 1.4;
+ padding:0.25em 1em;
+ display: inline-block;
+ top:0;
+}
+
+h1:before, h1:after {
+ position: absolute;
+ top: 0;
+ content:'';
+ width: 10px;
+ height: 100%;
+ display: inline-block;
+}
+h1:before {
+ border-left: solid 5px #1b2538;
+ border-top: solid 1px #1b2538;
+ border-bottom: solid 1px #1b2538;
+ left: 0;
+}
+h1:after {
+ content: '';
+ border-top: solid 1px #1b2538;
+ border-right: solid 5px #1b2538;
+ border-bottom: solid 1px #1b2538;
+ right: 0;
+}
+
 body{
   background-color: white;
 }
-h1{background-color: #1b2538;
-  color:white
-
+h1{color: #1b2538;
 }
 
 .ringo{ border-radius: 5px;
 }
 h2{
-   color:#1b2538
+   color:#1b2538;
+   clear: both;
 }
 h3{
    color:#1b2538
@@ -58,11 +117,6 @@ footer{
 img{
   max-width: 100%;
   height: auto;
-}
-
-
-h2{
-  clear: both;
 }
 
 figure.gazou{
@@ -124,7 +178,7 @@ figure.gazou2{
 .cp_menu li a:hover,
 .cp_menu li span{
   color:#87ceeb;
-  background-color: 
+  background-color:
 }
 /*リストが増えたらULごとに追加してください*/
 #cp_menu_bar1:checked ~ #link1 li,
@@ -209,7 +263,7 @@ figure.gazou2{
 
 #cv li{
   display: inline-block;
-  background-color: #f5f5f5;
+  background-color: white;
 }
 
 #cv li a,
@@ -235,17 +289,15 @@ figure.gazou2{
         padding: 10px;
     }
 
-
     #cv li a,
     #cv li span{
         font-size:15px;
         margin:0 10px;
     }
 }
-
 #cv a:link { color: #1b2538; }
 #cv a:visited { color: #1b2538; }
-
+#cv li+li{border-left: 2px solid #1b2538;}
 
 
 #sub_top{
@@ -255,7 +307,7 @@ figure.gazou2{
 
 #sub_top li{
   display: inline-block;
-  background-color: #f5f5f5;
+  background-color: white;
 }
 
 #sub_top li a,
@@ -271,7 +323,6 @@ figure.gazou2{
 #sub_top li span{
   color:#87ceeb;
 }
-
 #sub_top li span{
   border-bottom: 5px solid </div>;
 }
@@ -281,16 +332,15 @@ figure.gazou2{
         padding: 10px;
     }
 
-
     #sub_top li a,
     #sub_top li span{
         font-size:15px;
         margin:0 10px;
     }
+}
 #sub_top a:link { color: #1b2538; }
 #sub_top a:visited { color: #1b2538; }
-
-}
+#sub_top li+li{border-left: 2px solid #1b2538;}
 body {
     animation: fadeIn 10s ease 5s 4 normal;
     -webkit-animation: fadeIn 3s ease 0s 1 normal;
