@@ -1,0 +1,63 @@
+@charset "utf-8";
+.sadatika {font-family: "fantasy","fantasy",fantasy;
+}
+#ziko p{font-family: "fantasy","fantasy",fantasy;
+}
+#ziko h1{font-family: "fantasy","fantasy",fantasy;
+}
+#ziko h2{font-family: "fantasy","fantasy",fantasy;
+}
+#ziko h3{font-family: "fantasy","fantasy",fantasy;
+}
+#cv{
+  text-align: center;
+  padding: 10px;
+}
+#cv li{
+  display: inline-block;
+  background-color: black;
+}
+
+#cv li a,
+#cv li span{
+  font-size:25px;
+  text-decoration: none;
+  margin: 0 50px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#ziko li a:hover,
+#ziko li span{
+  color:red;
+}
+#ziko p a:hover,
+#ziko p span{
+  color:red;
+}
+#cv li span{
+  border-bottom: 5px solid </div>;
+}
+
+@media screen and (max-width:480px) {
+    #cv{
+        padding: 10px;
+    }
+
+    #cv li a,
+    #cv li span{
+        font-size:15px;
+        margin:0 10px;
+    }
+}
+#ziko a:link { color: white; }
+#ziko a:visited { color: white; }
+#ziko li{border-right: 2px solid white;}
+#ziko li{border-left: 2px solid white;}
+
+#ziko h2{color: white;
+  font-size:40px;
+}
+#ziko h3{color: white;
+  font-size:30px;
+}

@@ -45,27 +45,7 @@ position: relative;
  top:0;
 }
 
-h1:before, h1:after {
- position: absolute;
- top: 0;
- content:'';
- width: 10px;
- height: 100%;
- display: inline-block;
-}
-h1:before {
- border-left: solid 5px #1b2538;
- border-top: solid 1px #1b2538;
- border-bottom: solid 1px #1b2538;
- left: 0;
-}
-h1:after {
- content: '';
- border-top: solid 1px #1b2538;
- border-right: solid 5px #1b2538;
- border-bottom: solid 1px #1b2538;
- right: 0;
-}
+
 #ziko h1{font-family: 'Hiragino Maru Gothic ProN';
 position: relative;
  line-height: 1.4;
@@ -74,27 +54,6 @@ position: relative;
  top:0;
 }
 
-h1:before, h1:after {
- position: absolute;
- top: 0;
- content:'';
- width: 10px;
- height: 100%;
- display: inline-block;
-}
-h1:before {
- border-left: solid 5px #1b2538;
- border-top: solid 1px #1b2538;
- border-bottom: solid 1px #1b2538;
- left: 0;
-}
-h1:after {
- content: '';
- border-top: solid 1px #1b2538;
- border-right: solid 5px #1b2538;
- border-bottom: solid 1px #1b2538;
- right: 0;
-}
 
 body{
   background-color: white;
@@ -372,4 +331,51 @@ body {
         opacity:  1;                /* 透明度指定 */
         top: 0;                     /* 位置指定 */
     }
+}
+
+.topBn li{
+	display:inline-block;
+	margin:5px 2px;　/*←上下5px、左右2pxのマージン指定の場合*/
+}
+.topBn li img {
+	border:solid 1px #ccc;　/*←画像を1pxのグレーの枠線で囲む指定の場合*/
+}
+
+#css-slider {
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.slide-item {
+	width: 300px;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+
+
+.slider-wrapper {
+	width: 400%;
+	position: relative;
+	left: 0;
+	will-change: transform;
+	animation: slider 10s infinite;
+}
+
+@keyframes slider {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-300px); }
+  60% { transform: translateX(-900px); }
+  100% { transform: translateX(0); }
+}
+a:visited{
+  color : black;
+}
+
+a:hover{
+  color : blue;
+}
+a{
+  text-decoration: none;
 }
